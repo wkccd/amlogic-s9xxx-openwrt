@@ -65,7 +65,7 @@ download_imagebuilder() {
 
     # Downloading imagebuilder files
     # download_file="https://downloads.${op_sourse}.org/releases/${op_branch}/targets/armsr/armv8/${op_sourse}-imagebuilder-${op_branch}-armsr-armv8.Linux-x86_64.tar.zst"
-    download_file=="https://fw.koolcenter.com/iStoreOS/ib/armsr/istoreos-imagebuilder-armsr-armv8.Linux-x86_64.tar.zst"
+    download_file=="https://fw0.koolcenter.com/iStoreOS/ib/armsr/istoreos-imagebuilder-armsr-armv8.Linux-x86_64.tar.zst"
     curl -fsSOL ${download_file}
     [[ "${?}" -eq "0" ]] || error_msg "Download failed: [ ${download_file} ]"
 
